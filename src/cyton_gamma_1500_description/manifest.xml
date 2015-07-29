@@ -1,0 +1,14 @@
+<package>
+  <description brief="robotic_arm">
+
+     robotic_arm
+
+  </description>
+  <author>Cristi</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/robotic_arm</url>
+
+</package>
+
+

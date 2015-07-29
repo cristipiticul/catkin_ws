@@ -1,0 +1,9 @@
+cyton_joint_trajectory_action_controller:
+    controller:
+        package: dynamixel_controllers
+        module: joint_trajectory_action_controller
+        type: JointTrajectoryActionController
+    joint_trajectory_action_node:
+        min_velocity: 0.25
+        constraints:
+            goal_time: 1.0
