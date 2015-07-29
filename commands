@@ -1,0 +1,18 @@
+# Get owner rights for the USB port
+sudo chown cristi /dev/ttyU*
+
+# Start the controller manager
+roslaunch cyton_controllers controller_manager.launch
+
+# Examine motor feedback
+rostopic echo /motor_states/port_0
+
+# Start the controllers
+roslaunch cyton_controllers start_controller.launch
+
+# Publish a position command
+rostopic pub -1 /wrist_roll_position_controller/command std_msgs/Float64 -- 1.5
+
+rosrun cyton_controllers dynamixel_joint_state_publisher.py
+roslaunch cyton_gamma_1500_moveit_conf move_group.launch
+roslaunch cyton_gamma_1500_moveit_conf moveit_rviz.launch
