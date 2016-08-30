@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find cyton_controllers)/launch/controller_manager.launch"/>
+  <include file="$(find cyton_controllers)/launch/start_controller.launch" />
+  <include file="$(find cyton_controllers)/launch/start_gripper_controller.launch" />
+  <node pkg="cyton_controllers" type="dynamixel_joint_state_publisher.py" name="dynamixel_joint_state_publisher" respawn="false" output="screen" />
+  <node pkg="gripper_control" type="gripper_control_real" name="gripper_control" />
+</launch>

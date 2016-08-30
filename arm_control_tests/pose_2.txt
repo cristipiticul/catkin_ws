@@ -1,0 +1,33 @@
+header: 
+  seq: 61
+  stamp: 
+    secs: 1461847975
+    nsecs: 253153085
+  frame_id: ''
+joint_names: ['shoulder_roll_joint', 'shoulder_pitch_joint', 'shoulder_yaw_joint', 'elbow_pitch_joint', 'elbow_yaw_joint', 'wrist_pitch_joint', 'wrist_roll_joint']
+desired: 
+  positions: [-1.7428645573725459, -1.1965064865858759, 0.9416733037598898, 1.1346027585181406, 1.6824105493407695, -1.6736000514530112, -1.6436928392676822]
+  velocities: [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]
+  accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  effort: []
+  time_from_start: 
+    secs: 0
+    nsecs: 0
+actual: 
+  positions: [-1.753340040553288, -1.2026409377023426, 0.9387962421860124, 1.1213399559444037, 1.6858448858863198, -1.6689710972195777, -1.6382914814618648]
+  velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  accelerations: []
+  effort: []
+  time_from_start: 
+    secs: 0
+    nsecs: 0
+error: 
+  positions: [-0.010475483180742096, -0.00613445111646671, -0.0028770615738773486, -0.01326280257373691, 0.003434336545550254, 0.004628954233433458, 0.005401357805817408]
+  velocities: [-0.25, -0.25, -0.25, -0.25, -0.25, -0.25, -0.25]
+  accelerations: []
+  effort: []
+  time_from_start: 
+    secs: 0
+    nsecs: 0
+---
+

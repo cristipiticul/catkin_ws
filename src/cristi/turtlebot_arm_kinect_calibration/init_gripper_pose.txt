@@ -1,0 +1,23 @@
+- Translation: [-0.095, 0.041, 0.231]
+- Rotation: in Quaternion [-0.481, 0.632, -0.351, 0.497]
+            in RPY (radian) [-1.847, 0.295, -1.617]
+            in RPY (degree) [-105.824, 16.885, -92.645]
+
+
+
+Resulting transform (fixed frame -> camera frame): 
+ 0.919372  0.111751 -0.377184  0.219904
+-0.0187468   0.97016  0.241741 -0.148202
+ 0.392943 -0.215179  0.894032 -0.211404
+        0         0         0         1
+
+<robot>
+	<property name="turtlebot_calib_cam_x" value="-0.121882" />
+	<property name="turtlebot_calib_cam_y" value="0.0737152" />
+	<property name="turtlebot_calib_cam_z" value="0.307773" />
+	<property name="turtlebot_calib_cam_rr" value="0.264079" />
+	<property name="turtlebot_calib_cam_rp" value="0.386753" />
+	<property name="turtlebot_calib_cam_ry" value="0.120958" />
+	<property name="turtlebot_kinect_frame_name" value="base_link" />
+</robot>
+

@@ -1,0 +1,9 @@
+pid:
+
+shoulder_roll: 64 4 8
+shoulder_pitch: 32 8 16
+shoulder_yaw: 32 4 8
+elbow_pitch: 32 4 8
+elbow_yaw: 32 0 0 (default)
+wrist_pitch: 32 4 8
+wrist_roll: 32 8 16

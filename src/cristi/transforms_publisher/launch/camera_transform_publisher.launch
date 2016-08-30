@@ -1,0 +1,12 @@
+<launch>
+  <!-- the camera axis should be rotated -90 degrees around Ox and 90 degrees around Oy in order to convert from Kinect to robot coordinates -->
+  <arg name="camera_x" />
+  <arg name="camera_y" />
+  <arg name="camera_z" />
+  <arg name="camera_rot_x" />
+  <arg name="camera_rot_y" />
+  <arg name="camera_rot_z" />
+  <arg name="camera_rot_w" />
+
+  <node pkg="tf" type="static_transform_publisher" name="camera_transform_publisher" args="$(arg camera_x) $(arg camera_y) $(arg camera_z) $(arg camera_rot_x) $(arg camera_rot_y) $(arg camera_rot_z) $(arg camera_rot_w) camera_front camera 100" />
+</launch>

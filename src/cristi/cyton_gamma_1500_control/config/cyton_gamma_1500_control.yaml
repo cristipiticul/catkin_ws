@@ -1,0 +1,57 @@
+/:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50  
+
+  cyton_joint_trajectory_action_controller:
+    type: "effort_controllers/JointTrajectoryController"
+    joints:
+      - shoulder_roll_joint
+      - shoulder_pitch_joint
+      - shoulder_yaw_joint
+      - elbow_pitch_joint
+      - elbow_yaw_joint
+      - wrist_pitch_joint
+      - wrist_roll_joint
+    gains:
+      shoulder_roll_joint:
+        {p: 120.0, i: 100.0, d: 5.0, i_clamp: 1000}
+      shoulder_pitch_joint:
+        {p: 120.0, i: 100.0, d: 5.0, i_clamp: 1000}
+      shoulder_yaw_joint:
+        {p: 120.0, i: 100.0, d: 5.0, i_clamp: 1000}
+      elbow_pitch_joint:
+        {p: 120.0, i: 100.0, d: 5.0, i_clamp: 1000}
+      elbow_yaw_joint:
+        {p: 120.0, i: 100.0, d: 5.0, i_clamp: 1000}
+      wrist_pitch_joint:
+        {p: 120.0, i: 100.0, d: 5.0, i_clamp: 1000}
+      wrist_roll_joint:
+        {p: 120.0, i: 100.0, d: 5.0, i_clamp: 1000}
+    constraints:
+      goal_time: 0.6                   # Override default
+      stopped_velocity_tolerance: 0.02 # Override default
+      shoulder_roll_joint:
+        goal: 0.02
+      shoulder_pitch_joint:
+        goal: 0.02
+      shoulder_yaw_joint:
+        goal: 0.02
+      elbow_pitch_joint:
+        goal: 0.02
+      elbow_yaw_joint:
+        goal: 0.02
+      wrist_pitch_joint:
+        goal: 0.02
+      wrist_roll_joint:
+        goal: 0.02
+
+  gripper_joint_position_controller:
+    type: effort_controllers/JointEffortController
+    joint: gripper_joint
+    pid: {p: 100.0, i: 0.005, d: 10.0}
+  gripper_joint2_position_controller:
+    type: effort_controllers/JointEffortController
+    joint: gripper_joint2
+    pid: {p: 100.0, i: 0.005, d: 10.0}

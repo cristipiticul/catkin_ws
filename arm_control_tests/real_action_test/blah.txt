@@ -1,0 +1,12 @@
+rosrun tf static_transform_publisher 0.003 0.02 0.032 0 0 0 1 gripper_finger1 gripper_tip 100
+
+rosrun tf static_transform_publisher 0.0159049 -0.0676562 -0.0726715 -0.00693552 -0.0372704 -0.0267286 0.998924  gripper_tip camera_rgb_optical_frame 100
+
+rosrun tf static_transform_publisher 0.0226024 -0.0726024 -0.0642905 5.76287e-05 -0.00592154 -0.0243163 0.999687  gripper_tip camera_rgb_optical_frame 100
+
+rosrun tf static_transform_publisher 0.00634906 -0.0770718 -0.0655914 0.00172287 0.0161738 -0.0132038 0.999781  gripper_tip camera_rgb_optical_frame 100
+
+
+-0.003 -0.445 0.275 -0.003381 0.72691 -0.68672 0.0024495
+
+rosrun tf static_transform_publisher -0.0114847 -0.0569829 -0.0703399 -0.111661 0.0161135 0.000948444 0.993615  gripper_tip camera_rgb_optical_frame 100

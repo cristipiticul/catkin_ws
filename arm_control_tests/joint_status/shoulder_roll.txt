@@ -1,0 +1,160 @@
+header: 
+  seq: 4201
+  stamp: 
+    secs: 1461849916
+    nsecs: 602499008
+  frame_id: ''
+name: shoulder_roll_joint
+motor_ids: [0]
+motor_temps: [27]
+goal_pos: -1.33149532388
+current_pos: -1.32689338152
+error: 0.00460194236366
+velocity: 0.0
+load: 0.0234375
+is_moving: False
+---
+header: 
+  seq: 4202
+  stamp: 
+    secs: 1461849916
+    nsecs: 652597904
+  frame_id: ''
+name: shoulder_roll_joint
+motor_ids: [0]
+motor_temps: [27]
+goal_pos: -1.33149532388
+current_pos: -1.32689338152
+error: 0.00460194236366
+velocity: 0.0
+load: 0.0234375
+is_moving: False
+---
+header: 
+  seq: 4203
+  stamp: 
+    secs: 1461849916
+    nsecs: 702545881
+  frame_id: ''
+name: shoulder_roll_joint
+motor_ids: [0]
+motor_temps: [27]
+goal_pos: -1.33149532388
+current_pos: -1.32689338152
+error: 0.00460194236366
+velocity: 0.0
+load: 0.0234375
+is_moving: False
+---
+header: 
+  seq: 4204
+  stamp: 
+    secs: 1461849916
+    nsecs: 752557992
+  frame_id: ''
+name: shoulder_roll_joint
+motor_ids: [0]
+motor_temps: [27]
+goal_pos: -1.33149532388
+current_pos: -1.32689338152
+error: 0.00460194236366
+velocity: 0.0
+load: 0.0234375
+is_moving: False
+---
+header: 
+  seq: 4205
+  stamp: 
+    secs: 1461849916
+    nsecs: 802582979
+  frame_id: ''
+name: shoulder_roll_joint
+motor_ids: [0]
+motor_temps: [27]
+goal_pos: -1.33149532388
+current_pos: -1.32689338152
+error: 0.00460194236366
+velocity: 0.0
+load: 0.0234375
+is_moving: False
+---
+header: 
+  seq: 4206
+  stamp: 
+    secs: 1461849916
+    nsecs: 852595090
+  frame_id: ''
+name: shoulder_roll_joint
+motor_ids: [0]
+motor_temps: [27]
+goal_pos: -1.33149532388
+current_pos: -1.32689338152
+error: 0.00460194236366
+velocity: 0.0
+load: 0.0234375
+is_moving: False
+---
+header: 
+  seq: 4207
+  stamp: 
+    secs: 1461849916
+    nsecs: 902563095
+  frame_id: ''
+name: shoulder_roll_joint
+motor_ids: [0]
+motor_temps: [27]
+goal_pos: -1.33149532388
+current_pos: -1.32689338152
+error: 0.00460194236366
+velocity: 0.0
+load: 0.0234375
+is_moving: False
+---
+header: 
+  seq: 4208
+  stamp: 
+    secs: 1461849916
+    nsecs: 952601909
+  frame_id: ''
+name: shoulder_roll_joint
+motor_ids: [0]
+motor_temps: [27]
+goal_pos: -1.33149532388
+current_pos: -1.32689338152
+error: 0.00460194236366
+velocity: 0.0
+load: 0.0234375
+is_moving: False
+---
+header: 
+  seq: 4209
+  stamp: 
+    secs: 1461849917
+    nsecs: 2558946
+  frame_id: ''
+name: shoulder_roll_joint
+motor_ids: [0]
+motor_temps: [27]
+goal_pos: -1.33149532388
+current_pos: -1.32689338152
+error: 0.00460194236366
+velocity: 0.0
+load: 0.0234375
+is_moving: False
+---
+header: 
+  seq: 4210
+  stamp: 
+    secs: 1461849917
+    nsecs: 52603960
+  frame_id: ''
+name: shoulder_roll_joint
+motor_ids: [0]
+motor_temps: [27]
+goal_pos: -1.33149532388
+current_pos: -1.32689338152
+error: 0.00460194236366
+velocity: 0.0
+load: 0.0234375
+is_moving: False
+---

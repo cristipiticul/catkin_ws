@@ -1,0 +1,131 @@
+-0.041704; -0.085053; -0.055697
+0.391; -0.47341; 0.59783; 0.51536
+
+[ INFO] [1462264569.661241496]: Got the first transform from base-->gripper!
+
+[ INFO] [1462264569.870280937]: [calibrate] Initialized.
+[ INFO] [1462264569.874240670]: [calibrate] Got image info!
+Got an image callback!
+Is the checkerboard correct? 
+Move edge of gripper to point 1 in image and press Enter. 
+ 
+[ INFO] [1462264686.462202005]: Transform base->end_effector:
+[ INFO] [1462264686.462275217]: Transform X Y Z RX RY RZ RW:
+0.149255 -0.390514 0.316309 0.341706 -0.389956 0.822517 0.233745
+Move edge of gripper to point 2 in image and press Enter. 
+
+[ INFO] [1462264695.764283438]: Transform base->end_effector:
+[ INFO] [1462264695.764342662]: Transform X Y Z RX RY RZ RW:
+0.041849 -0.382129 0.320447 0.312519 -0.473744 0.753051 0.332886
+Move edge of gripper to point 3 in image and press Enter. 
+
+[ INFO] [1462264698.963048251]: Transform base->end_effector:
+[ INFO] [1462264698.963118609]: Transform X Y Z RX RY RZ RW:
+-0.065478 -0.379982 0.319263 0.235658 -0.519769 0.708086 0.415836
+Move edge of gripper to point 4 in image and press Enter. 
+
+[ INFO] [1462264713.965930158]: Transform base->end_effector:
+[ INFO] [1462264713.965987646]: Transform X Y Z RX RY RZ RW:
+0.023538 -0.381213 0.221794 0.040057 -0.476526 0.877484 0.036616
+Move edge of gripper to point 5 in image and press Enter. 
+
+[ INFO] [1462264733.563764852]: Transform base->end_effector:
+[ INFO] [1462264733.564014205]: Transform X Y Z RX RY RZ RW:
+0.153959 -0.390652 0.174766 0.038660 -0.537020 0.839175 0.076806
+Move edge of gripper to point 6 in image and press Enter. 
+
+[ INFO] [1462264738.565757736]: Transform base->end_effector:
+[ INFO] [1462264738.565819889]: Transform X Y Z RX RY RZ RW:
+0.041179 -0.383274 0.177330 -0.078076 -0.601213 0.783064 0.138772
+Move edge of gripper to point 7 in image and press Enter. 
+
+[ INFO] [1462264740.558400817]: Transform base->end_effector:
+[ INFO] [1462264740.558469513]: Transform X Y Z RX RY RZ RW:
+-0.069098 -0.379962 0.179371 -0.178343 -0.641592 0.721207 0.190823
+[ INFO] [1462264740.558670544]: Point 0
+Camera: 0.156562	-0.424774	0.317781
+Real  : 0.154780	-0.425279	0.315977
+Error : -0.001782	-0.000505	-0.001803
+
+[ INFO] [1462264740.558714178]: Point 1
+Camera: 0.036766	-0.417907	0.316443
+Real  : 0.037703	-0.416885	0.316543
+Error : 0.000936	0.001022	0.000100
+
+[ INFO] [1462264740.558753691]: Point 2
+Camera: -0.083030	-0.411039	0.315105
+Real  : -0.078207	-0.412436	0.314374
+Error : 0.004823	-0.001397	-0.000731
+
+[ INFO] [1462264740.558792683]: Point 3
+Camera: 0.037784	-0.417692	0.226449
+Real  : 0.030730	-0.415626	0.222714
+Error : -0.007054	0.002067	-0.003735
+
+[ INFO] [1462264740.558832082]: Point 4
+Camera: 0.158258	-0.424417	0.167791
+Real  : 0.158399	-0.425343	0.170995
+Error : 0.000141	-0.000926	0.003204
+
+[ INFO] [1462264740.558870727]: Point 5
+Camera: 0.038462	-0.417549	0.166453
+Real  : 0.038063	-0.417217	0.168566
+Error : -0.000399	0.000333	0.002114
+
+[ INFO] [1462264740.558909498]: Point 6
+Camera: -0.081334	-0.410682	0.165115
+Real  : -0.078000	-0.411274	0.165964
+Error : 0.003334	-0.000592	0.000850
+
+Resulting transform (camera frame -> fixed frame): 
+ -0.968659  -0.248316 0.00626473  0.0305213
+-0.0301303  0.0924262  -0.995264   0.357629
+  0.246561   -0.96426 -0.0970113   0.169273
+         0          0          0          1
+
+Resulting transform (fixed frame -> camera frame): 
+   0.246561    -0.96426  -0.0970113    0.169273
+   0.968659    0.248316 -0.00626473  -0.0755213
+  0.0301303  -0.0924262    0.995264   -0.357629
+          0           0           0           1
+
+Static transform publisher (use for external kinect): 
+rosrun tf static_transform_publisher x y z qx qy qz qw frame_id child_frame_id period_in_ms
+rosrun tf static_transform_publisher 0.0421937 0.148922 0.371883 0.0273005 0.0402852 -0.612451 0.789009 /base_link /camera_link 100
+
+URDF output (use for kinect on robot): 
+<?xml version="1.0"?>
+<robot>
+	<property name="turtlebot_calib_cam_x" value="0.0421937" />
+	<property name="turtlebot_calib_cam_y" value="0.148922" />
+	<property name="turtlebot_calib_cam_z" value="0.371883" />
+	<property name="turtlebot_calib_cam_rr" value="-0.00629446" />
+	<property name="turtlebot_calib_cam_rp" value="0.0971641" />
+	<property name="turtlebot_calib_cam_ry" value="-1.32046" />
+	<property name="turtlebot_kinect_frame_name" value="base_link" />
+</robot>
+
+[ INFO] [1462264740.563477059]: Got the second transform from base-->camera!
+
+[ INFO] [1462264740.563554142]: Gripper to camera_rgb_optical_frame:
+rosrun tf static_transform_publisher x y z qx qy qz qw frame_id child_frame_id period_in_ms
+rosrun tf static_transform_publisher 0.0026847 -0.0841277 -0.0483614 -0.124392 -0.0824338 3.11849e-05 0.988803  gripper_finger1 camera_rgb_optical_frame 100
+[ INFO] [1462264740.563608154]: Gripper to camera_link:
+rosrun tf static_transform_publisher -0.0417037 -0.0850534 -0.055697 0.391004 -0.473407 0.59783 0.515365  gripper_finger1 camera_link 100
+ -0.163029  -0.986409 -0.0204465 -0.0417037
+  0.245993 -0.0205699  -0.969053 -0.0850534
+  0.955463  -0.163014   0.246004  -0.055697
+   -1.7367    1.75384 4.5793e-41          1
+BC
+  -0.968659  -0.0301303    0.246561 -0.00139594
+  -0.248316   0.0924259    -0.96426    0.137748
+ 0.00626473   -0.995264  -0.0970112    0.372165
+    -1.7367     1.75384           0           1
+BG
+ -0.996307  0.0115293  0.0850871 0.00636371
+-0.0858489  -0.152743   -0.98453  0.0775151
+0.00164555  -0.988199   0.153169   0.296434
+   -1.7367    1.75384          0          1
+[calibrate_kinect_checkerboard-1] process has finished cleanly
+log file: /home/cristi/.ros/log/e396dfbc-1109-11e6-8cb4-c197c9a5f174/calibrate_kinect_checkerboard-1*.log
+

@@ -1,0 +1,8 @@
+<launch>
+  <include file="$(find cyton_kinect_moveit_conf)/launch/move_group.launch">
+    <arg name="robot_description_file" value="$(find arm_simulation)/cyton_gamma_1500_camera.urdf"/>
+  </include>
+  <include file="$(find cyton_kinect_moveit_conf)/launch/moveit_rviz.launch">
+  	<arg name="config" value="true" />
+  </include>
+</launch>

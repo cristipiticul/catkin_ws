@@ -1,0 +1,15 @@
+<launch>
+  <arg name="bottle_dx" value="0.0" />
+  <arg name="bottle_dy" value="-0.125" />
+  <arg name="bottle_dz" value="0.0" />
+
+  <include file="$(find detection)/launch/real.launch">
+    <arg name="driver" value="false" />
+  </include>
+
+  <include file="$(find transforms_publisher)/launch/transforms_publisher.launch">
+    <arg name="bottle_dx" value="$(arg bottle_dx)" />
+    <arg name="bottle_dy" value="$(arg bottle_dy)" />
+    <arg name="bottle_dz" value="$(arg bottle_dz)" />
+  </include>
+</launch>

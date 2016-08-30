@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<launch>
+  <param name="robot_description" textfile="$(find arm_simulation)/cyton_gamma_1500_camera.urdf" />
+  <node name="spawn_arm" pkg="gazebo_ros" type="spawn_model" args="$(optenv ROBOT_INITIAL_POSE) -unpause -urdf -param robot_description -model cyton_arm -ros_namespace /gazebo" respawn="false" output="screen" />
+  
+  <!--param name="kinect_description" textfile="$(find arm_simulation)/kinect.urdf" />
+  <node name="spawn_kinect" pkg="gazebo_ros" type="spawn_model" args="-x -1 -y 0 -z 0 -unpause -urdf -param kinect_description -model kinect -ros_namespace /gazebo" respawn="false" output="screen" /-->
+
+  <param name="bottle_description" textfile="$(find arm_simulation)/bottle.urdf" />
+  <node name="spawn_bottle" pkg="gazebo_ros" type="spawn_model" args="-x 0 -y -0.47 -z 0.7 -unpause -urdf -param bottle_description -model bottle -ros_namespace /gazebo" respawn="false" output="screen" />
+
+  <param name="table_description" textfile="$(find arm_simulation)/table.sdf" />
+  <node name="spawn_table" pkg="gazebo_ros" type="spawn_model" args="-x 0 -y -0.5 -z 0 -unpause -sdf -param table_description -model table -ros_namespace /gazebo" respawn="false" output="screen" />
+</launch>

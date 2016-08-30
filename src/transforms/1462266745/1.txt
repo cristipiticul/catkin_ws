@@ -1,0 +1,3 @@
+target: /base_footprint, source: /camera_rgb_optical_frame:
+-0.040291, 0.021656, 0.481836
+-0.157605, 0.817870, -0.550610, 0.055476

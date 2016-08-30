@@ -1,0 +1,17 @@
+<!--
+New wrist roll to optical frame:
+0.059976 -0.045048 0.034952
+-0.087900 -0.061955 0.024073 0.993909
+-->
+
+<launch>
+  <arg name="camera_x" value="0.059976"  />
+  <arg name="camera_y" value="-0.045048" />
+  <arg name="camera_z" value="0.034952" />
+  <arg name="camera_rot_x" value="-0.0879" />
+  <arg name="camera_rot_y" value="-0.061955"/>
+  <arg name="camera_rot_z" value="0.024073"/>
+  <arg name="camera_rot_w" value="0.993909"/>
+
+  <node pkg="tf" type="static_transform_publisher" name="camera_transform_publisher" args="$(arg camera_x) $(arg camera_y) $(arg camera_z) $(arg camera_rot_x) $(arg camera_rot_y) $(arg camera_rot_z) $(arg camera_rot_w) wrist_roll camera_rgb_optical_frame 100" />
+</launch>

@@ -1,0 +1,3 @@
+target: /camera_rgb_optical_frame, source: /bottle:
+0.194154, -0.137460, 0.826514
+0.000000, 0.000000, 0.000000, 1.000000

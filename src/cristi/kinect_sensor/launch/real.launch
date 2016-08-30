@@ -1,0 +1,16 @@
+<launch>
+  <arg name="bottle_dx" value="0.0" />
+  <arg name="bottle_dy" value="-0.095" />
+  <arg name="bottle_dz" value="0.008" />
+
+  <include file="$(find openni2_launch)/launch/openni2.launch" />
+  <node pkg="kinect_sensor" type="cloud_viewer_ros" name="kinect_bottle_detector" />
+
+  <node pkg="gripper_control" type="gripper_control_real" name="gripper_control" />
+
+  <include file="$(find transforms_publisher)/launch/transforms_publisher.launch">
+    <arg name="bottle_dx" value="$(arg bottle_dx)" />
+    <arg name="bottle_dy" value="$(arg bottle_dy)" />
+    <arg name="bottle_dz" value="$(arg bottle_dz)" />
+  </include>
+</launch>

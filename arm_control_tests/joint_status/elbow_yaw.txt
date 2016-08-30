@@ -1,0 +1,624 @@
+header: 
+  seq: 6058
+  stamp: 
+    secs: 1461850009
+    nsecs: 909123897
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6059
+  stamp: 
+    secs: 1461850009
+    nsecs: 958620071
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6060
+  stamp: 
+    secs: 1461850010
+    nsecs: 9123086
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6061
+  stamp: 
+    secs: 1461850010
+    nsecs: 59101104
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6062
+  stamp: 
+    secs: 1461850010
+    nsecs: 109050035
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6063
+  stamp: 
+    secs: 1461850010
+    nsecs: 158634901
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6064
+  stamp: 
+    secs: 1461850010
+    nsecs: 209217071
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6065
+  stamp: 
+    secs: 1461850010
+    nsecs: 258651018
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6066
+  stamp: 
+    secs: 1461850010
+    nsecs: 308633089
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6067
+  stamp: 
+    secs: 1461850010
+    nsecs: 358642101
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6068
+  stamp: 
+    secs: 1461850010
+    nsecs: 408677101
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6069
+  stamp: 
+    secs: 1461850010
+    nsecs: 458647966
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6070
+  stamp: 
+    secs: 1461850010
+    nsecs: 508677005
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6071
+  stamp: 
+    secs: 1461850010
+    nsecs: 558670043
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6072
+  stamp: 
+    secs: 1461850010
+    nsecs: 608674049
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6073
+  stamp: 
+    secs: 1461850010
+    nsecs: 658643960
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6074
+  stamp: 
+    secs: 1461850010
+    nsecs: 708604097
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6075
+  stamp: 
+    secs: 1461850010
+    nsecs: 758610010
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6076
+  stamp: 
+    secs: 1461850010
+    nsecs: 808608055
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6077
+  stamp: 
+    secs: 1461850010
+    nsecs: 858683109
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6078
+  stamp: 
+    secs: 1461850010
+    nsecs: 908627033
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6079
+  stamp: 
+    secs: 1461850010
+    nsecs: 958653926
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6080
+  stamp: 
+    secs: 1461850011
+    nsecs: 8627891
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6081
+  stamp: 
+    secs: 1461850011
+    nsecs: 58634042
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6082
+  stamp: 
+    secs: 1461850011
+    nsecs: 108652114
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6083
+  stamp: 
+    secs: 1461850011
+    nsecs: 158633947
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6084
+  stamp: 
+    secs: 1461850011
+    nsecs: 208640098
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6085
+  stamp: 
+    secs: 1461850011
+    nsecs: 258682966
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6086
+  stamp: 
+    secs: 1461850011
+    nsecs: 308633089
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6087
+  stamp: 
+    secs: 1461850011
+    nsecs: 358637094
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6088
+  stamp: 
+    secs: 1461850011
+    nsecs: 408612966
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6089
+  stamp: 
+    secs: 1461850011
+    nsecs: 458641052
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6090
+  stamp: 
+    secs: 1461850011
+    nsecs: 508641004
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6091
+  stamp: 
+    secs: 1461850011
+    nsecs: 558721065
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6092
+  stamp: 
+    secs: 1461850011
+    nsecs: 608644962
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6093
+  stamp: 
+    secs: 1461850011
+    nsecs: 658674955
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6094
+  stamp: 
+    secs: 1461850011
+    nsecs: 708641052
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6095
+  stamp: 
+    secs: 1461850011
+    nsecs: 758614063
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---
+header: 
+  seq: 6096
+  stamp: 
+    secs: 1461850011
+    nsecs: 808655977
+  frame_id: ''
+name: elbow_yaw_joint
+motor_ids: [4]
+motor_temps: [29]
+goal_pos: -0.0736310778185
+current_pos: -0.067495154667
+error: 0.00613592315154
+velocity: 0.0
+load: 0.03125
+is_moving: False
+---

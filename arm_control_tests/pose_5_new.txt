@@ -1,0 +1,38 @@
+0.386 0.169 0.182 -0.518 0.484 -0.482 0.515
+[ INFO] [1461861202.038200409]: Reached pose:
+[ INFO] [1461861202.038247140]: X Y Z RX RY RZ RW:
+0.383 0.172 0.179 -0.527 0.483 -0.472 0.515
+
+header: 
+  seq: 18861
+  stamp: 
+    secs: 1461861223
+    nsecs: 329502105
+  frame_id: ''
+joint_names: ['shoulder_roll_joint', 'shoulder_pitch_joint', 'shoulder_yaw_joint', 'elbow_pitch_joint', 'elbow_yaw_joint', 'wrist_pitch_joint', 'wrist_roll_joint']
+desired: 
+  positions: [-1.0688866152261864, -1.0595599361513937, 0.545118394655064, -1.4689918919681275, -1.0026317182922604, 0.41932958696494016, 0.9813601539589357]
+  velocities: [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]
+  accelerations: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  effort: []
+  time_from_start: 
+    secs: 0
+    nsecs: 0
+actual: 
+  positions: [-1.069184609156292, -1.0615147052168636, 0.5445631796994026, -1.4680196140065587, -0.9786797426710391, 0.4172427743048944, 0.9894176081862386]
+  velocities: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  accelerations: []
+  effort: []
+  time_from_start: 
+    secs: 0
+    nsecs: 0
+error: 
+  positions: [-0.00029799393010554454, -0.0019547690654699856, -0.0005552149556613539, 0.0009722779615688459, 0.02395197562122131, -0.0020868126600457337, 0.008057454227302863]
+  velocities: [-0.25, -0.25, -0.25, -0.25, -0.25, -0.25, -0.25]
+  accelerations: []
+  effort: []
+  time_from_start: 
+    secs: 0
+    nsecs: 0
+---
+

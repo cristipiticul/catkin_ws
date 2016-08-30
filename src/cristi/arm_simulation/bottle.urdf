@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<robot name="bottle">
+  <link name="bottle_bottom">
+    <visual>
+      <origin xyz="0 0 0.1"/>
+      <geometry>
+        <cylinder length="0.2" radius="0.035" />
+      </geometry>
+      <material name="blue">
+        <color rgba="0.5 0.5 0.8 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.1"/>
+      <geometry>
+        <cylinder length="0.2" radius="0.035" />
+      </geometry>
+    </collision>
+    
+    <!-- For gazebo -->
+    <inertial>
+      <origin xyz="0 0 0.1"/>
+      <mass value="0.5"/>
+      <inertia
+        ixx="0.1" ixy="0.0" ixz="0.0"
+        iyy="0.1" iyz="0.0"
+        izz="0.1"/>
+    </inertial>
+  </link>
+  <joint name="bottle_joint" type="fixed">
+    <parent link="bottle_bottom"/>
+    <child link="bottle_top"/>
+    <origin rpy="0 0 0" xyz="0 0 0.2"/>
+  </joint>
+  <link name="bottle_top">
+    <visual>
+      <origin xyz="0 0 0.0075"/>
+      <geometry>
+        <cylinder length="0.015" radius="0.01" />
+      </geometry>
+      <material name="yellow">
+        <color rgba="1.0 1.0 0.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.0075"/>
+      <geometry>
+        <cylinder length="0.015" radius="0.01" />
+      </geometry>
+    </collision>
+    
+    <!-- For gazebo -->
+    <inertial>
+      <origin xyz="0 0 0.0075" rpy="0 0 0"/>
+      <mass value="0.05"/>
+      <inertia
+        ixx="0.1" ixy="0.0" ixz="0.0"
+        iyy="0.1" iyz="0.0"
+        izz="0.1"/>
+    </inertial>
+  </link>
+</robot>

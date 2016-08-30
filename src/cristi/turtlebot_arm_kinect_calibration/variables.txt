@@ -1,0 +1,160 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/cristi/catkin_ws/src/cristi/turtlebot_arm_kinect_calibration/devel
+-- Using CMAKE_PREFIX_PATH: /home/cristi/catkin_ws/devel;/opt/ros/indigo
+-- This workspace overlays: /home/cristi/catkin_ws/devel;/opt/ros/indigo
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/cristi/catkin_ws/src/cristi/turtlebot_arm_kinect_calibration/test_results
+-- Found gtest sources under '/usr/src/gtest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.6.18
+-- Using these message generators: gencpp;genlisp;genpy
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+-- Boost version: 1.54.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   date_time
+--   iostreams
+--   serialization
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- checking for module 'openni-dev'
+--   package 'openni-dev' not found
+-- looking for PCL_COMMON
+-- looking for PCL_OCTREE
+-- looking for PCL_IO
+-- looking for PCL_KDTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_FEATURES
+-- looking for PCL_KEYPOINTS
+-- looking for PCL_GEOMETRY
+-- looking for PCL_SEGMENTATION
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_OUTOFCORE
+-- looking for PCL_REGISTRATION
+-- looking for PCL_RECOGNITION
+-- looking for PCL_SURFACE
+-- looking for PCL_PEOPLE
+-- looking for PCL_TRACKING
+-- looking for PCL_APPS
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cristi/catkin_ws/src/cristi/turtlebot_arm_kinect_calibration
+-- Cache values
+BOOST_THREAD_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpthread.so
+BUILD_SHARED_LIBS:BOOL=ON
+CATKIN_ENABLE_TESTING:BOOL=ON
+CATKIN_PACKAGE_PREFIX:STRING=
+CATKIN_SKIP_TESTING:BOOL=OFF
+CMAKE_BUILD_TYPE:STRING=
+CMAKE_INSTALL_PREFIX:PATH=/usr/local
+DOXYGEN_EXECUTABLE:FILEPATH=/usr/bin/doxygen
+DOXYGEN_FOUND:BOOL=TRUE
+EIGEN_INCLUDE_DIRS:PATH=/usr/include/eigen3
+EMPY_EXECUTABLE:FILEPATH=/usr/bin/empy
+EMPY_SCRIPT:STRING=/usr/bin/empy
+FLANN_INCLUDE_DIRS:PATH=/usr/include
+FLANN_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+FLANN_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
+LIBUSB_1_INCLUDE_DIR:PATH=/usr/include
+LIBUSB_1_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libusb-1.0.so
+LSB_FOUND:BOOL=TRUE
+LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
+NOSETESTS:FILEPATH=/usr/bin/nosetests-2.7
+OPENNI_INCLUDE_DIRS:PATH=/usr/include/ni
+OPENNI_LIBRARY:FILEPATH=/usr/lib/libOpenNI.so
+OpenCV_DIR:PATH=/opt/ros/indigo/share/OpenCV-3.1.0-dev
+PCL_APPS_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_COMMON_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_DIR:PATH=/usr/share/pcl-1.7
+PCL_FEATURES_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_FILTERS_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_GEOMETRY_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_IO_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_KDTREE_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_KEYPOINTS_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_OCTREE_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_OUTOFCORE_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_PEOPLE_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_RECOGNITION_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_REGISTRATION_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_SAMPLE_CONSENSUS_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_SEARCH_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_SEGMENTATION_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_SURFACE_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_TRACKING_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PCL_VISUALIZATION_INCLUDE_DIR:PATH=/usr/include/pcl-1.7
+PYTHON_VERSION:STRING=
+QHULL_INCLUDE_DIRS:PATH=/usr/include
+QHULL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libqhull.so
+QHULL_LIBRARY_DEBUG:FILEPATH=/usr/lib/x86_64-linux-gnu/libqhull.so
+RT_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/librt.so
+SETUPTOOLS_DEB_LAYOUT:BOOL=ON
+UBUNTU:BOOL=TRUE
+UBUNTU_TRUSTY:BOOL=TRUE
+_CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
+_CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
+actionlib_DIR:PATH=/opt/ros/indigo/share/actionlib/cmake
+actionlib_msgs_DIR:PATH=/opt/ros/indigo/share/actionlib_msgs/cmake
+bond_DIR:PATH=/opt/ros/indigo/share/bond/cmake
+bondcpp_DIR:PATH=/opt/ros/indigo/share/bondcpp/cmake
+catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
+class_loader_DIR:PATH=/opt/ros/indigo/share/class_loader/cmake
+cmake_modules_DIR:PATH=/opt/ros/indigo/share/cmake_modules/cmake
+cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
+cv_bridge_DIR:PATH=/opt/ros/indigo/share/cv_bridge/cmake
+dynamic_reconfigure_DIR:PATH=/opt/ros/indigo/share/dynamic_reconfigure/cmake
+gencpp_DIR:PATH=/opt/ros/indigo/share/gencpp/cmake
+genlisp_DIR:PATH=/opt/ros/indigo/share/genlisp/cmake
+genmsg_DIR:PATH=/opt/ros/indigo/share/genmsg/cmake
+genpy_DIR:PATH=/opt/ros/indigo/share/genpy/cmake
+geometry_msgs_DIR:PATH=/opt/ros/indigo/share/geometry_msgs/cmake
+gtest_build_samples:BOOL=OFF
+gtest_build_tests:BOOL=OFF
+gtest_disable_pthreads:BOOL=OFF
+gtest_force_shared_crt:BOOL=OFF
+image_geometry_DIR:PATH=/opt/ros/indigo/share/image_geometry/cmake
+image_transport_DIR:PATH=/opt/ros/indigo/share/image_transport/cmake
+lib:FILEPATH=/opt/ros/indigo/lib/libtf2.so
+message_filters_DIR:PATH=/opt/ros/indigo/share/message_filters/cmake
+message_generation_DIR:PATH=/opt/ros/indigo/share/message_generation/cmake
+message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
+nodelet_DIR:PATH=/opt/ros/indigo/share/nodelet/cmake
+pcl_conversions_DIR:PATH=/opt/ros/indigo/share/pcl_conversions/cmake
+pcl_msgs_DIR:PATH=/opt/ros/indigo/share/pcl_msgs/cmake
+pcl_ros_DIR:PATH=/opt/ros/indigo/share/pcl_ros/cmake
+pluginlib_DIR:PATH=/opt/ros/indigo/share/pluginlib/cmake
+rosbag_DIR:PATH=/opt/ros/indigo/share/rosbag/cmake
+rosbag_storage_DIR:PATH=/opt/ros/indigo/share/rosbag_storage/cmake
+rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
+roscpp_DIR:PATH=/opt/ros/indigo/share/roscpp/cmake
+roscpp_serialization_DIR:PATH=/opt/ros/indigo/share/roscpp_serialization/cmake
+roscpp_traits_DIR:PATH=/opt/ros/indigo/share/roscpp_traits/cmake
+rosgraph_DIR:PATH=/opt/ros/indigo/share/rosgraph/cmake
+rosgraph_msgs_DIR:PATH=/opt/ros/indigo/share/rosgraph_msgs/cmake
+roslib_DIR:PATH=/opt/ros/indigo/share/roslib/cmake
+roslz4_DIR:PATH=/opt/ros/indigo/share/roslz4/cmake
+rospy_DIR:PATH=/opt/ros/indigo/share/rospy/cmake
+rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
+sensor_msgs_DIR:PATH=/opt/ros/indigo/share/sensor_msgs/cmake
+smclib_DIR:PATH=/opt/ros/indigo/share/smclib/cmake
+std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
+tf2_DIR:PATH=/opt/ros/indigo/share/tf2/cmake
+tf2_msgs_DIR:PATH=/opt/ros/indigo/share/tf2_msgs/cmake
+tf2_py_DIR:PATH=/opt/ros/indigo/share/tf2_py/cmake
+tf2_ros_DIR:PATH=/opt/ros/indigo/share/tf2_ros/cmake
+tf_DIR:PATH=/opt/ros/indigo/share/tf/cmake
+topic_tools_DIR:PATH=/opt/ros/indigo/share/topic_tools/cmake
+visualization_msgs_DIR:PATH=/opt/ros/indigo/share/visualization_msgs/cmake
+xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake

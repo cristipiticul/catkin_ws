@@ -1,0 +1,8 @@
+<launch>
+  <arg name="bottle_dx" />
+  <arg name="bottle_dy" />
+  <arg name="bottle_dz" />
+
+  <node pkg="transforms_publisher" type="transforms_publisher" name="bottle_transform_publisher" />
+  <node pkg="tf" type="static_transform_publisher" name="bottle_cap_transform_publisher" args="$(arg bottle_dx) $(arg bottle_dy) $(arg bottle_dz) 0.0 0.0 0.0 1.0 bottle bottle_cap 100"/>
+</launch>

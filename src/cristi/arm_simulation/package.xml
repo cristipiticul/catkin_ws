@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<package>
+  <name>arm_simulation</name>
+  <version>0.0.0</version>
+  <description>The arm_simulation package</description>
+
+  <author email="gert@cs.ttu.ee">Gert Kanter</author>
+  <maintainer email="gert@cs.ttu.ee">Gert Kanter</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/cyton_gamma_1500_description</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>xacro</build_depend>
+  
+  <run_depend>rviz</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  
+  <!-- For correcting the point cloud -->
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>pcl_msgs</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>Boost</build_depend>
+  
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>pcl_conversions</run_depend>
+  <run_depend>pcl_msgs</run_depend>
+  <run_depend>pcl_ros</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

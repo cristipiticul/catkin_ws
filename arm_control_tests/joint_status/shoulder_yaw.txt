@@ -1,0 +1,368 @@
+header: 
+  seq: 5169
+  stamp: 
+    secs: 1461849965
+    nsecs: 255491018
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5170
+  stamp: 
+    secs: 1461849965
+    nsecs: 305459022
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5171
+  stamp: 
+    secs: 1461849965
+    nsecs: 355514049
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5172
+  stamp: 
+    secs: 1461849965
+    nsecs: 405651092
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5173
+  stamp: 
+    secs: 1461849965
+    nsecs: 455761909
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5174
+  stamp: 
+    secs: 1461849965
+    nsecs: 505986928
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5175
+  stamp: 
+    secs: 1461849965
+    nsecs: 555974006
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5176
+  stamp: 
+    secs: 1461849965
+    nsecs: 605534076
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5177
+  stamp: 
+    secs: 1461849965
+    nsecs: 655752897
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5178
+  stamp: 
+    secs: 1461849965
+    nsecs: 705743074
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5179
+  stamp: 
+    secs: 1461849965
+    nsecs: 755549907
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5180
+  stamp: 
+    secs: 1461849965
+    nsecs: 805584907
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5181
+  stamp: 
+    secs: 1461849965
+    nsecs: 855544090
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5182
+  stamp: 
+    secs: 1461849965
+    nsecs: 905524969
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5183
+  stamp: 
+    secs: 1461849965
+    nsecs: 955599069
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5184
+  stamp: 
+    secs: 1461849966
+    nsecs: 5467891
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5185
+  stamp: 
+    secs: 1461849966
+    nsecs: 55478096
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5186
+  stamp: 
+    secs: 1461849966
+    nsecs: 105494022
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5187
+  stamp: 
+    secs: 1461849966
+    nsecs: 155530929
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5188
+  stamp: 
+    secs: 1461849966
+    nsecs: 205959081
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5189
+  stamp: 
+    secs: 1461849966
+    nsecs: 255453109
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5190
+  stamp: 
+    secs: 1461849966
+    nsecs: 305532932
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---
+header: 
+  seq: 5191
+  stamp: 
+    secs: 1461849966
+    nsecs: 355529069
+  frame_id: ''
+name: shoulder_yaw_joint
+motor_ids: [2]
+motor_temps: [28]
+goal_pos: -0.0444854428487
+current_pos: -0.0475534044245
+error: -0.00306796157577
+velocity: 0.0
+load: -0.015625
+is_moving: False
+---

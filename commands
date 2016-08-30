@@ -1,8 +1,36 @@
-# Get owner rights for the USB port
+For real robot use:
+-------------------
+# Get owner rights for the USB port (replace "cristi" with your own username)
 sudo chown cristi /dev/ttyU*
 
-# Start the controller manager
-roslaunch cyton_controllers controller_manager.launch
+# Check if the controllers have the angle limits set: (Elod did something with them)
+roslaunch bottle_demo check_if_controllers_are_prepared.launch
+
+# If the controllers do NOT have the angle limits set, use the prepare_controller_X.launch (where X is 5 or 6) files from the bottle_demo package.
+
+
+# Start the controllers for the robotic arm:
+roslaunch bottle_demo controllers.launch
+
+# Start the detection application:
+roslaunch bottle_demo kinect.launch
+
+# Start MoveIt! for arm trajectory planning and visualizing the system:
+roslaunch bottle_demo moveit.launch
+
+===================
+
+For simulation:
+---------------
+
+roslaunch bottle_demo simulated_controllers.launch
+roslaunch bottle_demo simulated_kinect.launch
+roslaunch bottle_demo simulated_moveit.launch
+
+===================
+
+Lower-level stuff:
+------------------
 
 # Examine motor feedback
 rostopic echo /motor_states/port_0

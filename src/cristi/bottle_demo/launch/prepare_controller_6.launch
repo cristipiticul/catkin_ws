@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="dynamixel_driver" type="set_servo_config.py" name="motor6_angles_setter" output="screen" args="--port=/dev/ttyUSB0 -b 1000000 --cw-angle-limit=0 --ccw-angle-limit=4095 6" />
+</launch>

@@ -1,0 +1,18 @@
+target: /camera_rgb_optical_frame, source: /bottle:
+0.011609, 0.206293, 0.728797
+0.000000, 0.000000, 0.000000, 1.000000
+target: /base_footprint, source: /camera_rgb_optical_frame:
+0.018912, 0.007724, 0.378399
+-0.233767, 0.716223, -0.208289, 0.623693
+target: /camera_rgb_optical_frame, source: /bottle:
+0.272412, -0.149337, 0.675428
+0.000000, 0.000000, 0.000000, 1.000000
+target: /base_footprint, source: /camera_rgb_optical_frame:
+0.015672, 0.087769, 0.345295
+0.131287, 0.666629, 0.337542, 0.651486
+target: /camera_rgb_optical_frame, source: /bottle:
+-0.135422, 0.148866, 0.684739
+0.000000, 0.000000, 0.000000, 1.000000
+target: /base_footprint, source: /camera_rgb_optical_frame:
+0.097792, -0.160951, 0.348717
+-0.561911, 0.381982, -0.455577, 0.575148

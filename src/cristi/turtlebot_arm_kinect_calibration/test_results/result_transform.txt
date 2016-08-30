@@ -1,0 +1,16 @@
+gripper_finger1->camera_link
+Position (XYZ):
+-0.031153; -0.025531; -0.054813
+Orientation (XYZW):
+0.5474; -0.53247; 0.46931; 0.44337
+
+rosrun tf static_transform_publisher -0.031153 -0.025531 -0.054813 0.5474 -0.53247 0.46931 0.44337 gripper_finger1 camera_link 100
+
+
+-0.081448; -0.060714; -0.073231
+0.45375; -0.47233; 0.52974; 0.53888
+
+-0.038737; -0.069408; -0.056277
+0.45403; -0.46181; 0.5338; 0.54373
+
+rosrun tf static_transform_publisher -0.038737 -0.069408 -0.056277 0.45403 -0.46181 0.5338 0.54373 gripper_finger1 camera_link 100

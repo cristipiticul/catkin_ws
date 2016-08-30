@@ -1,0 +1,1 @@
+rosrun tf static_transform_publisher 0.003 0.02 0.032 0 0 0 gripper_finger1 gripper_tip 100

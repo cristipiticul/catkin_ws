@@ -1,0 +1,4 @@
+# 1 for OPEN, 2 for CLOSE
+int8 action
+---
+

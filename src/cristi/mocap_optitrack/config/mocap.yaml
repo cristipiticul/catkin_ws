@@ -1,0 +1,26 @@
+# 
+# Definition of all trackable objects
+# Identifier corresponds to Trackable ID set in Tracking Tools
+#
+rigid_bodies:
+    '1':
+        pose: pose1
+        pose2d: ground_pose1
+        child_frame_id: base_link1
+        parent_frame_id: world
+    '2':
+        pose: pose2
+        pose2d: ground_pose2
+        frame_id: base_link2
+        parent_frame_id: world
+    '3':
+        pose: pose3
+        pose2d: ground_pose3
+        frame_id: base_link3
+        parent_frame_id: world
+    '4':
+        pose: pose4
+        pose2d: ground_pose4
+        frame_id: base_link4
+        parent_frame_id: world
+

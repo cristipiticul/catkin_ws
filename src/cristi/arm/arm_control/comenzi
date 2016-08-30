@@ -1,0 +1,28 @@
+1. Only for real robot use
+sudo chmod 777 /dev/ttyUSB0
+
+2. fro real robot use
+roslaunch cyton_controllers start_controller.launch
+
+3.
+roslaunch cyton_controllers controller_manager.launch
+
+*** To move a single motor: rostopic pub -1 /gripper_position_controller/command std_msgs/Float64 -- 1.5
+
+4.
+rosrun cyton_controllers dynamixel_joint_state_publisher.py
+
+
+5. if simulation is enough:
+roslaunch cyton_gamma_1500_moveit_config moveit_planning_execution.launch
+
+
+================
+
+5.
+roslaunch cyton_gamma_1500_camera_moveit_conf move_group.launch
+
+6.roslaunch cyton_gamma_1500_camera_moveit_conf moveit_rviz.launch
+ Dupa ce deschidem Rviz selectam File->open config si incarcam fisierul"/home/cyton/catkin_ws/src/cyton_moveit_config/launch/moveit.rviz"
+
+7. rosrun pick_place_demo pick_place_demo

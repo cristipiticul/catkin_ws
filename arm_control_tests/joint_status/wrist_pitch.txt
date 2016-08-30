@@ -1,0 +1,432 @@
+header: 
+  seq: 6325
+  stamp: 
+    secs: 1461850023
+    nsecs: 210556030
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6326
+  stamp: 
+    secs: 1461850023
+    nsecs: 259994029
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6327
+  stamp: 
+    secs: 1461850023
+    nsecs: 310010910
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6328
+  stamp: 
+    secs: 1461850023
+    nsecs: 360011100
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.308330138365
+error: -0.0245436926062
+velocity: 0.0
+load: -0.125
+is_moving: False
+---
+header: 
+  seq: 6329
+  stamp: 
+    secs: 1461850023
+    nsecs: 410551071
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.308330138365
+error: -0.0245436926062
+velocity: 0.0
+load: -0.125
+is_moving: False
+---
+header: 
+  seq: 6330
+  stamp: 
+    secs: 1461850023
+    nsecs: 460005044
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6331
+  stamp: 
+    secs: 1461850023
+    nsecs: 509921073
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6332
+  stamp: 
+    secs: 1461850023
+    nsecs: 560009002
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.308330138365
+error: -0.0245436926062
+velocity: 0.0
+load: -0.125
+is_moving: False
+---
+header: 
+  seq: 6333
+  stamp: 
+    secs: 1461850023
+    nsecs: 609972953
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6334
+  stamp: 
+    secs: 1461850023
+    nsecs: 659951925
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.308330138365
+error: -0.0245436926062
+velocity: 0.0
+load: -0.125
+is_moving: False
+---
+header: 
+  seq: 6335
+  stamp: 
+    secs: 1461850023
+    nsecs: 709923982
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6336
+  stamp: 
+    secs: 1461850023
+    nsecs: 759989976
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6337
+  stamp: 
+    secs: 1461850023
+    nsecs: 809983968
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.308330138365
+error: -0.0245436926062
+velocity: 0.0
+load: -0.125
+is_moving: False
+---
+header: 
+  seq: 6338
+  stamp: 
+    secs: 1461850023
+    nsecs: 860138893
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6339
+  stamp: 
+    secs: 1461850023
+    nsecs: 909919977
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6340
+  stamp: 
+    secs: 1461850023
+    nsecs: 959996938
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.308330138365
+error: -0.0245436926062
+velocity: 0.0
+load: -0.125
+is_moving: False
+---
+header: 
+  seq: 6341
+  stamp: 
+    secs: 1461850024
+    nsecs: 10023117
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.308330138365
+error: -0.0245436926062
+velocity: 0.0
+load: -0.125
+is_moving: False
+---
+header: 
+  seq: 6342
+  stamp: 
+    secs: 1461850024
+    nsecs: 60002088
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.308330138365
+error: -0.0245436926062
+velocity: 0.0
+load: -0.125
+is_moving: False
+---
+header: 
+  seq: 6343
+  stamp: 
+    secs: 1461850024
+    nsecs: 110024929
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.308330138365
+error: -0.0245436926062
+velocity: 0.0
+load: -0.125
+is_moving: False
+---
+header: 
+  seq: 6344
+  stamp: 
+    secs: 1461850024
+    nsecs: 160186052
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.308330138365
+error: -0.0245436926062
+velocity: 0.0
+load: -0.125
+is_moving: False
+---
+header: 
+  seq: 6345
+  stamp: 
+    secs: 1461850024
+    nsecs: 210048913
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6346
+  stamp: 
+    secs: 1461850024
+    nsecs: 260238885
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6347
+  stamp: 
+    secs: 1461850024
+    nsecs: 310038089
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6348
+  stamp: 
+    secs: 1461850024
+    nsecs: 360318899
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---
+header: 
+  seq: 6349
+  stamp: 
+    secs: 1461850024
+    nsecs: 410193920
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.308330138365
+error: -0.0245436926062
+velocity: 0.0
+load: -0.125
+is_moving: False
+---
+header: 
+  seq: 6350
+  stamp: 
+    secs: 1461850024
+    nsecs: 460289955
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.308330138365
+error: -0.0245436926062
+velocity: 0.0
+load: -0.125
+is_moving: False
+---
+header: 
+  seq: 6351
+  stamp: 
+    secs: 1461850024
+    nsecs: 510001897
+  frame_id: ''
+name: wrist_pitch_joint
+motor_ids: [5]
+motor_temps: [39]
+goal_pos: 0.332873830971
+current_pos: 0.309864119153
+error: -0.0230097118183
+velocity: 0.0
+load: -0.1171875
+is_moving: False
+---

@@ -1,0 +1,6 @@
+\subsubsection usage Usage
+\verbatim
+<node name="create_description" pkg="detection" type="create_description">
+</node>
+\endverbatim
+

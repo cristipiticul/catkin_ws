@@ -1,0 +1,34 @@
+<launch>
+  <arg name="bottle_dx" value="0.0" />
+  <arg name="bottle_dy" value="-0.115" />
+  <arg name="bottle_dz" value="0.03" />
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="worlds/empty.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <include file="$(find arm_simulation)/launch/spawn_arm.launch" />
+
+  <include file="$(find cyton_gamma_1500_control)/launch/cyton_gamma_1500_control.launch" />
+  <node pkg="gripper_control" type="gripper_control_sim" name="gripper_control" />
+
+  <node pkg="kinect_sensor" type="simulated_cloud_viewer" name="kinect_bottle_detector" />
+
+  <include file="$(find transforms_publisher)/launch/transforms_publisher.launch">
+    <arg name="bottle_dx" value="$(arg bottle_dx)" />
+    <arg name="bottle_dy" value="$(arg bottle_dy)" />
+    <arg name="bottle_dz" value="$(arg bottle_dz)" />
+  </include>
+  
+  <node pkg="tf" type="static_transform_publisher" name="world_to_odom" args="0 0 0 0 0 0 /world odom_combined 100" />
+  
+  <arg name="pi/2" value="1.5707963267948966" />
+  <arg name="optical_rotate" value="0 0 0 -$(arg pi/2) 0 -$(arg pi/2)" />
+  
+  <node pkg="tf" type="static_transform_publisher" name="kinect_simulated" args="$(arg optical_rotate) /camera camera_rgb_optical_frame 100" />
+</launch>

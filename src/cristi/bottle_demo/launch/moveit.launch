@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find cyton_kinect_moveit_conf)/launch/move_group.launch" />
+  <include file="$(find cyton_kinect_moveit_conf)/launch/moveit_rviz.launch" />
+</launch>

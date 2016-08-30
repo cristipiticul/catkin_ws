@@ -1,0 +1,17 @@
+roslaunch cyton_controllers start_controller.launch
+
+roslaunch cyton_controllers controller_manager.launch
+
+rosrun cyton_controllers dynamixel_joint_state_publisher.py
+
+rosrun turtlebot_arm_kinect_calibration calibrate_kinect_checkerboard
+
+rosrun turtlebot_arm_kinect_calibration get_transforms
+
+rosrun image_view image_view image:=/calrate_kinect_arm/calibration_pattern_out
+
+rosrun rqt_tf_tree rqt_tf_tree
+
+roslaunch openni_launch openni.launch
+
+rosrun image_view image_view image:=/camera/rgb/ime_mono

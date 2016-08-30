@@ -1,0 +1,208 @@
+header: 
+  seq: 4628
+  stamp: 
+    secs: 1461849938
+    nsecs: 54194927
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29774774655
+error: -0.0337475773335
+velocity: 0.0
+load: -0.171875
+is_moving: False
+---
+header: 
+  seq: 4629
+  stamp: 
+    secs: 1461849938
+    nsecs: 104178905
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29621376576
+error: -0.0322135965456
+velocity: 0.0
+load: -0.1640625
+is_moving: False
+---
+header: 
+  seq: 4630
+  stamp: 
+    secs: 1461849938
+    nsecs: 154190063
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29621376576
+error: -0.0322135965456
+velocity: 0.0
+load: -0.1640625
+is_moving: False
+---
+header: 
+  seq: 4631
+  stamp: 
+    secs: 1461849938
+    nsecs: 204405069
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29774774655
+error: -0.0337475773335
+velocity: 0.0
+load: -0.171875
+is_moving: False
+---
+header: 
+  seq: 4632
+  stamp: 
+    secs: 1461849938
+    nsecs: 254183053
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29621376576
+error: -0.0322135965456
+velocity: 0.0
+load: -0.1640625
+is_moving: False
+---
+header: 
+  seq: 4633
+  stamp: 
+    secs: 1461849938
+    nsecs: 304236888
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29774774655
+error: -0.0337475773335
+velocity: 0.0
+load: -0.171875
+is_moving: False
+---
+header: 
+  seq: 4634
+  stamp: 
+    secs: 1461849938
+    nsecs: 354222059
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29621376576
+error: -0.0322135965456
+velocity: 0.0
+load: -0.1640625
+is_moving: False
+---
+header: 
+  seq: 4635
+  stamp: 
+    secs: 1461849938
+    nsecs: 404156923
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29621376576
+error: -0.0322135965456
+velocity: 0.0
+load: -0.1640625
+is_moving: False
+---
+header: 
+  seq: 4636
+  stamp: 
+    secs: 1461849938
+    nsecs: 454185962
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29621376576
+error: -0.0322135965456
+velocity: 0.0
+load: -0.1640625
+is_moving: False
+---
+header: 
+  seq: 4637
+  stamp: 
+    secs: 1461849938
+    nsecs: 504162073
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29621376576
+error: -0.0322135965456
+velocity: 0.0
+load: -0.1640625
+is_moving: False
+---
+header: 
+  seq: 4638
+  stamp: 
+    secs: 1461849938
+    nsecs: 554199934
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29621376576
+error: -0.0322135965456
+velocity: 0.0
+load: -0.1640625
+is_moving: False
+---
+header: 
+  seq: 4639
+  stamp: 
+    secs: 1461849938
+    nsecs: 604207038
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29621376576
+error: -0.0322135965456
+velocity: 0.0
+load: -0.1640625
+is_moving: False
+---
+header: 
+  seq: 4640
+  stamp: 
+    secs: 1461849938
+    nsecs: 654310941
+  frame_id: ''
+name: shoulder_pitch_joint
+motor_ids: [1]
+motor_temps: [31]
+goal_pos: -1.26400016922
+current_pos: -1.29621376576
+error: -0.0322135965456
+velocity: 0.0
+load: -0.1640625
+is_moving: False
+---
