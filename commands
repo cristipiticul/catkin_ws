@@ -44,3 +44,5 @@ rostopic pub -1 /wrist_roll_position_controller/command std_msgs/Float64 -- 1.5
 rosrun cyton_controllers dynamixel_joint_state_publisher.py
 roslaunch cyton_gamma_1500_moveit_conf move_group.launch
 roslaunch cyton_gamma_1500_moveit_conf moveit_rviz.launch
+
+# Save point clouds in binary format, using the pointcloud_pcd_binary package
