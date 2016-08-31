@@ -18,6 +18,9 @@ roslaunch bottle_demo kinect.launch
 # Start MoveIt! for arm trajectory planning and visualizing the system:
 roslaunch bottle_demo moveit.launch
 
+# Start the main application:
+rosrun cyton_gamma_1500_moveit_conf move_arm_to_bottle
+
 ===================
 
 For simulation:
@@ -26,6 +29,7 @@ For simulation:
 roslaunch bottle_demo simulated_controllers.launch
 roslaunch bottle_demo simulated_kinect.launch
 roslaunch bottle_demo simulated_moveit.launch
+rosrun cyton_gamma_1500_moveit_conf move_arm_to_bottle
 
 ===================
 
